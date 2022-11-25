@@ -382,13 +382,12 @@ ul {
     padding-bottom: 60px;
 }
 
-.adress-list .item {
+.item-tel {
     margin-bottom: 9px;
 }
 
-.adress-list .item:last-child {
-    margin-bottom: 0px;
-}
+
+
 
 
 /* ПОРТФОЛІО */
@@ -438,7 +437,7 @@ body {
 
 .filter-buttons .item {
     margin-right: 8px;
-    
+
 }
 
 .filter-buttons .item:last-child {
@@ -448,25 +447,13 @@ body {
 .list-cards {
     display: flex;
     flex-wrap: wrap;
-    
+    gap: 30px;
 }
 
 .card-text-wrap {
     padding: 20px 24px;
     border: 1px solid #EEEEEE;
-    border-top: none;
     box-sizing: content-box;
-
-}
-
-.list-cards .item {
-    margin-right: 30px;
-    margin-bottom: 30px;
-}
-
-.list-cards .item:last-child {
-    margin-right: 0;
-    margin-bottom: 0px;
 }
 
 .card-title {
