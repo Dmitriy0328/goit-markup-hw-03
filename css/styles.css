@@ -39,10 +39,7 @@ img {
     height: auto;
 }
 
-ul {
-    padding-left: 0;
-    margin: 0;
-}
+
 
 
 
@@ -367,6 +364,9 @@ ul {
 .footer-contact {
     color: var(--footer-contact-color);
     font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
 }
 
 .footer .link:hover,
