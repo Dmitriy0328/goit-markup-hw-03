@@ -45,6 +45,7 @@ ul {
 }
 
 
+
 /* Секції*/
 .section {
     margin-top: 0;
@@ -178,18 +179,11 @@ ul {
 .hero {
     background: var(--hero-background-color);
     text-align: center;
-
-
     padding: 200px 0;
 }
 
 .hero-title {
-
     margin-bottom: 30px;
-    width: 696px;
-    margin-left: auto;
-    margin-right: auto;
-
     color: var(--text-background-color);
     font-weight: 900;
     font-size: 44px;
@@ -389,11 +383,11 @@ ul {
 }
 
 .adress-list .item {
-    padding-bottom: 9px;
+    margin-bottom: 9px;
 }
 
 .adress-list .item:last-child {
-    padding-bottom: 0px;
+    margin-bottom: 0px;
 }
 
 
@@ -409,9 +403,6 @@ body {
 /* Шапка сторінки*/
 
 /* Унікальний контент сторінки*/
-
-
-
 
 .filter-button {
     background-color: var(--team-background-color);
@@ -442,11 +433,12 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-bottom: 50px;
 }
 
 .filter-buttons .item {
     margin-right: 8px;
-    margin-bottom: 50px;
+    
 }
 
 .filter-buttons .item:last-child {
@@ -456,12 +448,15 @@ body {
 .list-cards {
     display: flex;
     flex-wrap: wrap;
+    
 }
 
 .card-text-wrap {
     padding: 20px 24px;
     border: 1px solid #EEEEEE;
     border-top: none;
+    box-sizing: content-box;
+
 }
 
 .list-cards .item {
